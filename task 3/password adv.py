@@ -33,7 +33,6 @@ length_label.grid(row=0, column=0, padx=5, pady=5, sticky='w')
 length_entry = ttk.Entry(frame)
 length_entry.grid(row=0, column=1, padx=5, pady=5)
 length_entry.insert(0, "12")
-
 complexity_label = ttk.Label(frame, text="Complexity:")
 complexity_label.grid(row=1, column=0, padx=5, pady=5, sticky='w')
 complexity_var = tk.StringVar()

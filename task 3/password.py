@@ -1,5 +1,4 @@
 import random
-
 def generate_password(length, include_chars, exclude_chars):
     all_chars = []
     if 'l' in include_chars:
